@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>css grid</title>
+    <style>
+      .css-grid1{
+        display: grid;
+        grid-template-columns: 100px 50px 1fr;
+        grid-template-rows: 20px ;
+        column-gap: 10px;
+        row-gap: 10px;
+      }
+    </style>
+
+  </head>
+  <body>
+    <div style="margin-bottom: 10px;">
+      <div style="background-color: yellowgreen;
+      display: inline-block;">div1</div>
+      <div style="background-color: brown;
+      display: inline-block;">div2</div>
+      
+    </div>
+
+    <div class="css-grid1">
+      <div style="background-color: yellowgreen;">
+        100px</div>
+      <div style="background-color: brown;">
+        50px</div>
+      <div style="background-color:coral;">
+        1fr</div>
+      <div style="background-color:coral;">
+        1fr</div>
+      <div style="background-color: yellowgreen;">
+        100px</div>
+      <div style="background-color: brown;">
+        50px</div>
+    
+    </div>
+
+
+    
+  </body>
+</html>
